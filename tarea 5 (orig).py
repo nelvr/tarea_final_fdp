@@ -10,3 +10,11 @@ for i in range(5):
             break
         else:
             print("Valor inválido. Debe ser mayor o igual a 0.")
+            
+# Calculamos el total de lluvia
+total_lluvia = 0.0
+for lluvia in precipit:
+    total_lluvia += lluvia
+
+# Calculamos el promedio
+promedio = total_lluvia / len(precipit)
